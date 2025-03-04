@@ -1,0 +1,7 @@
+{
+  "name": "template-1",
+  "pages": {
+    "project": "template-1"
+  },
+  "pages_build_output_dir": "./"
+}

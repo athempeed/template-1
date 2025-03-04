@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiper + Card Layout</title>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/styles.css"> <!-- Custom CSS -->
+</head>
+
+<body>
+
+    <h1>Image Carousel</h1>
+
+    <!-- Swiper Carousel -->
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="https://picsum.photos/600/300?random=1" alt="Slide 1"></div>
+            <div class="swiper-slide"><img src="https://picsum.photos/600/300?random=2" alt="Slide 2"></div>
+            <div class="swiper-slide"><img src="https://picsum.photos/600/300?random=3" alt="Slide 3"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <h1>Card Layout</h1>
+
+    <!-- Card Grid (3 cards per row) -->
+    <div class="card-container">
+        <div class="card">
+            <img src="https://picsum.photos/300/200?random=4" alt="Card 1">
+            <div class="card-content">
+                <h3>Card Title 1</h3>
+                <p>Description for card 1.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://picsum.photos/300/200?random=5" alt="Card 2">
+            <div class="card-content">
+                <h3>Card Title 2</h3>
+                <p>Description for card 2.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://picsum.photos/300/200?random=6" alt="Card 3">
+            <div class="card-content">
+                <h3>Card Title 3</h3>
+                <p>Description for card 3.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://picsum.photos/300/200?random=7" alt="Card 4">
+            <div class="card-content">
+                <h3>Card Title 4</h3>
+                <p>Description for card 4.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://picsum.photos/300/200?random=8" alt="Card 5">
+            <div class="card-content">
+                <h3>Card Title 5</h3>
+                <p>Description for card 5.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://picsum.photos/300/200?random=9" alt="Card 6">
+            <div class="card-content">
+                <h3>Card Title 6</h3>
+                <p>Description for card 6.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script> <!-- Custom JS -->
+</body>
+
+</html>
